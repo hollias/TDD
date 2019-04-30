@@ -8,7 +8,4 @@ public class Franc extends Money{
         return new Franc(amount * multiplier);
     }
 
-    public int getAmount() {
-        return amount;
-    }
 }
